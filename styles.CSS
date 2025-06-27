@@ -1,0 +1,368 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #FFFAFA;
+    font-size: 29px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+li:hover {
+    color: #ff51a5;
+}
+
+#logo {
+    width: 120px;
+    height: 100px;
+}
+
+#banner {
+    background-image: url(https://images7.alphacoders.com/136/1364834.png);
+    background-position: 10% 70%;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: white;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+    width: 70%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #8b2323;
+    color: #FFFAFA;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 20%;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #FFFAFA;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url(https://static.wikia.nocookie.net/sonys-marvel-universe/images/4/45/Tom_Hardy.jpg/revision/latest/scale-to-width-down/1200?cb=20241025033602);
+}
+
+.banner-2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekPMwTEGFcwy0NrPUMoJfJnOnnEqARD560Yr6bhODvB06bjvJ1HLzgVW7lNiMW7LSNyND7ViIB8je56mjbUEboodHJWpBK7yfvPJ5QbPQlQ);
+}
+
+.banner-3 {
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRRf-0d3niKru4GBv2Xv0hd7D6EIf90Eg8deaMiNZokJM26bWB59yUvVagPFsYz-VR1ja7KXzNHvrL40o9Dzcvk9G6bNBAMdrMA5AxUqUGz3g)
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: whitesmoke;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contact-back {
+    background-image: url(https://images2.alphacoders.com/138/1380045.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 1080px;
+}
+
+section {
+    width: 100%;
+    height: 1080px;
+    background: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+#titulo1 {
+    font-size: 50px;
+    background: none;
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 200px;
+}
+
+#complemento {
+    font-size: 20px;
+    background: none;
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 200px;
+}
+
+#text-aux {
+    width: 20%;
+    padding-top: 30px;
+    font-size: 20px;
+    background: none;
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 200px;
+}
+
+form {
+    width: 350px;
+    height: 400px;
+    background: none;
+    display: grid;
+    margin-top: 20px;
+    padding-left: 200px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    color: aliceblue;
+    background: none;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    background: aliceblue;
+    font-weight: 400;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.1s;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-family: "Montserrat", sans-serif;
+    background: aliceblue;
+    font-weight: 400;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.1s;
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 200px;
+    align-items: center;
+    margin-left: 90px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: aliceblue;
+    background: #8b2323;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.fotos-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotos-content {
+    display: grid;
+    grid-template-columns:repeat(3, 2fr);
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.foto {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+@media(max-width: 768px){
+     .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 40%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
